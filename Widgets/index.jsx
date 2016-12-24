@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Widget from './widget';
+import Root from './frontend/root';
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("this worked");
-  const root = document.getElementById("root");
-  ReactDOM.render(<Widget/>, root);
+  const main = document.getElementById("root");
+  ReactDOM.render(<Root/>, main);
 });

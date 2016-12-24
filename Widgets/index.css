@@ -1,0 +1,54 @@
+body, div, li, ul, h1, article {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  list-style-type: none;
+  font-size: inherit;
+  font-family: helvetica;
+  font-weight: 100;
+}
+
+h1   {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 3px;
+
+}
+
+ul {
+  display: flex;
+}
+
+.tabs {
+  position: relative;
+  top: 500px;
+  left: 300px;
+  text-align: center;
+}
+
+.tab-title {
+
+
+}
+
+.tab:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.content-box {
+  border: 2px solid black;
+  margin: 2px;
+  width: 320px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+
+}
